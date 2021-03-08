@@ -213,6 +213,14 @@ section {
 	transition: 0.5s ease;
 }
 
+.text-display{
+	margin-left: 100px;
+	margin-right: 100px;
+	color: white;
+	font-family: "quicksand";
+	font-weight: bold;
+}
+
 .text {
 	color: white;
 	font-size: 16px !important;
