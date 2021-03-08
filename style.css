@@ -110,8 +110,22 @@ section {
 	margin-top: -100px;
 	padding: 30px;
 }
+.info-panel-bottom {
+	box-shadow: 0 3px 20px rgba(0, 0, 0, 0.2);
+	border-radius: 12px;
+	background-color: white;
+	margin-top: -100px;
+	padding: 30px;
+}
 
 .info-panel img {
+	width: 80px;
+	height: 80px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+.info-panel-bottom img {
 	width: 80px;
 	height: 80px;
 	margin-right: 20px;
@@ -124,8 +138,20 @@ section {
 	font-weight: bold;
 	margin-top: 5px;
 }
+.info-panel-bottom h4 {
+	text-transform: uppercase;
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: 5px;
+}
 
 .info-panel p {
+	font-size: 14px;
+	color: #acacac;
+	margin-top: -5px;
+	font-weight: 200;
+}
+.info-panel-bottom p {
 	font-size: 14px;
 	color: #acacac;
 	margin-top: -5px;
@@ -358,6 +384,11 @@ footer p {
 		padding: 30px;
 	}
 
+	.info-panel-bottom {
+		margin-top: -46px;
+		padding: 30px;
+	}
+
 	/* info panel */
 
 	.profile {
@@ -496,6 +527,11 @@ footer p {
 		padding: 30px;
 	}
 
+	.info-panel-bottom {
+		margin-top: -10px;
+		padding: 30px;
+	}
+
 	/* info panel */
 
 	/* workingspace */
@@ -533,6 +569,13 @@ footer p {
 		margin-bottom: 30px;
 	}
 	.info-panel {
+		box-shadow: none !important;
+		border-radius: 12px;
+		background-color: white;
+		margin-top: -100px;
+		padding: 30px;
+	}
+	.info-panel-bottom {
 		box-shadow: none !important;
 		border-radius: 12px;
 		background-color: white;
