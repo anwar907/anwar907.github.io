@@ -4562,7 +4562,7 @@ input[type=submit].btn-block {
     -ms-flex-align: center;
     align-items: center;
     -ms-flex-pack: justify;
-    justify-content: justify-content
+    justify-content: space-between
 }
 
 .navbar-brand {
