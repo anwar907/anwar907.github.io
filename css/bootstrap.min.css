@@ -6776,7 +6776,11 @@ a.close.disabled {
 .carousel-item-next,
 .carousel-item-prev,
 .carousel-item.active {
-    display: block
+    height: auto;
+    width: 36%;
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
 }
 
 .active.carousel-item-right,
@@ -6793,9 +6797,12 @@ a.close.disabled {
 
 .carousel-fade .carousel-item {
     opacity: 0;
+    margin: auto;
     transition-property: opacity;
     -webkit-transform: none;
-    transform: none
+    transform: none;
+    align-items: center;
+
 }
 
 .carousel-fade .carousel-item-next.carousel-item-left,
@@ -7267,7 +7274,14 @@ button.bg-dark:hover {
 }
 
 .d-block {
-    display: block !important
+    position: fixed;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+
 }
 
 .d-table {
