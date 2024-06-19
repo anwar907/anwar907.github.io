@@ -6308,7 +6308,6 @@ a.close.disabled {
     pointer-events: auto;
     background-color: #fff;
     background-clip: padding-box;
-    border: 1px solid rgba(0, 0, 0, .2);
     border-radius: .3rem;
     outline: 0
 }
@@ -6745,7 +6744,10 @@ a.close.disabled {
 .carousel-inner {
     position: relative;
     width: 100%;
-    overflow: hidden
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
 }
 
 .carousel-inner::after {
@@ -6755,11 +6757,6 @@ a.close.disabled {
 }
 
 .carousel-item {
-    position: relative;
-    display: none;
-    float: left;
-    width: 100%;
-    margin-right: -100%;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     transition: -webkit-transform .6s ease-in-out;
@@ -6776,11 +6773,8 @@ a.close.disabled {
 .carousel-item-next,
 .carousel-item-prev,
 .carousel-item.active {
-    height: auto;
-    width: 36%;
-    display: block;
-    max-width: 100%;
-    max-height: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .active.carousel-item-right,
@@ -6797,11 +6791,9 @@ a.close.disabled {
 
 .carousel-fade .carousel-item {
     opacity: 0;
-    margin: auto;
     transition-property: opacity;
     -webkit-transform: none;
     transform: none;
-    align-items: center;
 
 }
 
@@ -6829,7 +6821,7 @@ a.close.disabled {
 
 .carousel-control-next,
 .carousel-control-prev {
-    position: absolute;
+    position: fixed;
     top: 0;
     bottom: 0;
     z-index: 1;
@@ -7275,6 +7267,7 @@ button.bg-dark:hover {
 
 .d-block {
     position: fixed;
+    display: flex;
     width: auto;
     justify-content: center;
     align-items: center;
