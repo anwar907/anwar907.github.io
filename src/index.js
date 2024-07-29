@@ -1,16 +1,10 @@
-import jsyaml from 'js-yaml';
+
 // import { images } from './assets.js';
+import tools from "./assets/assets.js";
 import images from './assets/img/user.png';
 
-const yamlFiles = `- alt: Lunar VIM
-  src: "https://img.shields.io/badge/NeoVim-2357A143?logo=neovim&logoColor=white"
-- alt: Kotlin
-  src: "https://img.shields.io/badge/Kotlin-8365E8?logo=kotlin&logoColor=white"
-- alt: HTML
-  src: "https://img.shields.io/badge/HTML-E34F26?logo=html5&logoColor=white"`
-
 // Development Tools
-const shields = jsyaml.load(yamlFiles);
+const shields = tools;
 const container = document.getElementById('shields-container');
 shields.forEach(shield => {
   const div = document.createElement('div');
