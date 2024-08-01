@@ -7,6 +7,9 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
     publicPath: '/'
   },
+  stats: {
+    errorDetails: true
+  },
   mode: 'development',
   module: {
     rules: [
@@ -36,5 +39,6 @@ module.exports = {
         use: ['style-loader', 'css-loader'],
     },
     ]
-  }
+  },
+  
 }
