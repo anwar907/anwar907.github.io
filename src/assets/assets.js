@@ -1,6 +1,5 @@
 import jsyaml from 'js-yaml';
 
-
 const yamlFiles = `
 - alt: Dart
   src: "https://img.shields.io/badge/Dart-25BEFA?logo=dart&logoColor=white"
@@ -53,7 +52,7 @@ const yamlFiles = `
 - alt: GitHub
   src: "https://img.shields.io/badge/GitHub-333333?logo=github&logoColor=white"
 - alt: GitLab
-  src: "https://img.shields.io/badge/GitLab-EE4700?logo=gitlab&logoColor=white"                                                                                                                                                                                                                                                                                                                       `
+  src: "https://img.shields.io/badge/GitLab-EE4700?logo=gitlab&logoColor=white"`
 
 
 export default jsyaml.load(yamlFiles)

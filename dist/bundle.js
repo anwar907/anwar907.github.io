@@ -16,7 +16,7 @@
   \********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _assets_assets__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./assets/assets */ \"./src/assets/assets.js\");\n/* harmony import */ var _toolsDevelopment__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./toolsDevelopment */ \"./src/toolsDevelopment.js\");\n\n\n\nfunction App() {\n  var toolsItems = _assets_assets__WEBPACK_IMPORTED_MODULE_1__[\"default\"].map(function (item, index) {\n    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_toolsDevelopment__WEBPACK_IMPORTED_MODULE_2__[\"default\"], {\n      key: index,\n      product: item\n    });\n  });\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", {\n    \"class\": \"col-10\",\n    \"data-aos\": \"fade-down\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", {\n    \"class\": \"project label-content aos-init aos-animate\",\n    \"data-aos\": \"fade-down\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"h2\", null, \"My Development Tools \")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", {\n    \"class\": \"row\"\n  }, toolsItems));\n}\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (App);\n\n//# sourceURL=webpack://anwar907.github.io/./src/app.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _assets_assets__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./assets/assets */ \"./src/assets/assets.js\");\n/* harmony import */ var _data_dataExperience__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./data/dataExperience */ \"./src/data/dataExperience.js\");\n/* harmony import */ var _toolsDevelopment__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./toolsDevelopment */ \"./src/toolsDevelopment.js\");\n/* harmony import */ var _workExperience__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./workExperience */ \"./src/workExperience.js\");\n\n\n\n\n\nfunction App() {\n  var toolsItems = _assets_assets__WEBPACK_IMPORTED_MODULE_1__[\"default\"].map(function (item, index) {\n    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_toolsDevelopment__WEBPACK_IMPORTED_MODULE_3__[\"default\"], {\n      key: index,\n      product: item\n    });\n  });\n  var exp = _data_dataExperience__WEBPACK_IMPORTED_MODULE_2__[\"default\"].map(function (items, index) {\n    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_workExperience__WEBPACK_IMPORTED_MODULE_4__[\"default\"], {\n      key: index,\n      experience: items\n    });\n  });\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"section\", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", {\n    className: \"container\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", {\n    className: \"row justify-content-left\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", {\n    className: \"col-10\",\n    \"data-aos\": \"fade-down\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", {\n    className: \"project label-content aos-init aos-animate\",\n    \"data-aos\": \"fade-down\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"h2\", null, \"My Development Tools \")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", {\n    className: \"row\"\n  }, toolsItems))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", {\n    className: \"row workingspace\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", {\n    className: \"col-sm-5 img-fluid\",\n    \"data-aos\": \"fade-down\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"img\", {\n    src: \"src/assets/img/user.png\",\n    alt: \"workingspace\",\n    className: \"img-fluid\"\n  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", {\n    className: \"col-sm-7 name\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", {\n    className: \"text-content\",\n    \"data-aos\": \"zoom-in-up\",\n    \"data-aos-offset\": \"200\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"h3\", {\n    className: \"text-name\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"b\", null, \"My Name Is\"), \" Anwar Sapi'i\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"p\", {\n    className: \"deskripsi\"\n  }, \"I am a mobile developer with experience as a mobile developer in the technology industry using the latest technologies. I am experienced in designing, developing, and deploying mobile applications for various platforms, such as Android and iOS. I am adept at analysing and debugging issues that may arise during the development process to ensure the smooth running of mobile applications. My adaptability, and commitment to innovation make me a valuable asset in dynamic, collaborative environments. I'm eager to contribute my technical expertise and problem solving skills to the success of future endeavours.\")))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"section\", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", {\n    className: \"container\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", {\n    className: \"project mt-5\",\n    id: \"experient\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", {\n    className: \"\",\n    \"data-aos\": \"fade-down\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"h2\", null, \"Experience\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"small\", null, \"Base on Mobile Apps\")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", {\n    className: \"row mb-3 mt-5\"\n  }, exp)))));\n}\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (App);\n\n//# sourceURL=webpack://anwar907.github.io/./src/app.js?");
 
 /***/ }),
 
@@ -26,7 +26,87 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \******************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var js_yaml__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! js-yaml */ \"./node_modules/js-yaml/dist/js-yaml.mjs\");\n\nvar yamlFiles = \"\\n- alt: Dart\\n  src: \\\"https://img.shields.io/badge/Dart-25BEFA?logo=dart&logoColor=white\\\"\\n- alt: Flutter\\n  src: \\\"https://img.shields.io/badge/Flutter-25BEFA?logo=flutter&logoColor=white\\\"\\n- alt: Android\\n  src: \\\"https://img.shields.io/badge/Android-36C89C?logo=android&logoColor=white\\\"\\n- alt: iOS\\n  src: \\\"https://img.shields.io/badge/Ios-FFFFFF?logo=apple&logoColor=black\\\"\\n- alt: Lunar VIM\\n  src: \\\"https://img.shields.io/badge/NeoVim-2357A143?logo=neovim&logoColor=white\\\"\\n- alt: Kotlin\\n  src: \\\"https://img.shields.io/badge/Kotlin-8365E8?logo=kotlin&logoColor=white\\\"\\n- alt: HTML\\n  src: \\\"https://img.shields.io/badge/HTML-E34F26?logo=html5&logoColor=white\\\"\\n- alt: CSS \\n  src: \\\"https://img.shields.io/badge/CSS-1572B6?logo=css3&logoColor=white\\\"\\n- alt: Golang\\n  src: \\\"https://img.shields.io/badge/Go-%2300ADD8?logo=go&logoColor=white\\\"\\n- alt: Markdown\\n  src: \\\"https://img.shields.io/badge/Markdown-000000?logo=Markdown&logoColor=white\\\"\\n- alt: Docker\\n  src: \\\"https://img.shields.io/badge/Docker-white?logo=docker&logoColor=25BEFA\\\"\\n- alt: Insomnia\\n  src: \\\"https://img.shields.io/badge/Insomnia-black?logo=insomnia&logoColor=5849BE\\\"\\n- alt: Jira\\n  src: \\\"https://img.shields.io/badge/Jira-white?logo=jira&logoColor=0078D4\\\"\\n- alt: Java\\n  src: \\\"https://img.shields.io/badge/Java-FC7565?logo=java&logoColor=white\\\"\\n- alt: Postman\\n  src: \\\"https://img.shields.io/badge/Postman-FF6C37?logo=postman&logoColor=white\\\"\\n- alt: Stack Overflow\\n  src: \\\"https://img.shields.io/badge/-Stack%20Overflow-FE7A16?logo=stack-overflow&logoColor=white\\\"\\n- alt: Visual Studio Code\\n  src: \\\"https://img.shields.io/badge/Visual_Studio_Code-0078D4?logo=visual%20studio%20code&logoColor=white\\\"\\n- alt: XCode\\n  src: \\\"https://img.shields.io/badge/Xcode-0785DF?logo=xcode&logoColor=white\\\"\\n- alt: Notion\\n  src: \\\"https://img.shields.io/badge/Notion-010101?logo=notion&logoColor=white\\\"\\n- alt: Firebase\\n  src: \\\"https://img.shields.io/badge/Firebase-FFBD46?logo=firebase&logoColor=white\\\"\\n- alt: Figma\\n  src: \\\"https://img.shields.io/badge/Figma-121011?logo=figma&logoColor=white\\\"\\n- alt: Android Studio\\n  src: \\\"https://img.shields.io/badge/Android%20Studio-008678?logo=android-studio&logoColor=white\\\"\\n- alt: Cypress\\n  src: \\\"https://img.shields.io/badge/-cypress-%23E5E5E5?logo=cypress&logoColor=058a5e\\\"\\n- alt: Git\\n  src: \\\"https://img.shields.io/badge/Git-F05033?logo=git&logoColor=white\\\"\\n- alt: GitHub\\n  src: \\\"https://img.shields.io/badge/GitHub-333333?logo=github&logoColor=white\\\"\\n- alt: GitLab\\n  src: \\\"https://img.shields.io/badge/GitLab-EE4700?logo=gitlab&logoColor=white\\\"                                                                                                                                                                                                                                                                                                                       \";\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (js_yaml__WEBPACK_IMPORTED_MODULE_0__[\"default\"].load(yamlFiles));\n\n//# sourceURL=webpack://anwar907.github.io/./src/assets/assets.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var js_yaml__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! js-yaml */ \"./node_modules/js-yaml/dist/js-yaml.mjs\");\n\nvar yamlFiles = \"\\n- alt: Dart\\n  src: \\\"https://img.shields.io/badge/Dart-25BEFA?logo=dart&logoColor=white\\\"\\n- alt: Flutter\\n  src: \\\"https://img.shields.io/badge/Flutter-25BEFA?logo=flutter&logoColor=white\\\"\\n- alt: Android\\n  src: \\\"https://img.shields.io/badge/Android-36C89C?logo=android&logoColor=white\\\"\\n- alt: iOS\\n  src: \\\"https://img.shields.io/badge/Ios-FFFFFF?logo=apple&logoColor=black\\\"\\n- alt: Lunar VIM\\n  src: \\\"https://img.shields.io/badge/NeoVim-2357A143?logo=neovim&logoColor=white\\\"\\n- alt: Kotlin\\n  src: \\\"https://img.shields.io/badge/Kotlin-8365E8?logo=kotlin&logoColor=white\\\"\\n- alt: HTML\\n  src: \\\"https://img.shields.io/badge/HTML-E34F26?logo=html5&logoColor=white\\\"\\n- alt: CSS \\n  src: \\\"https://img.shields.io/badge/CSS-1572B6?logo=css3&logoColor=white\\\"\\n- alt: Golang\\n  src: \\\"https://img.shields.io/badge/Go-%2300ADD8?logo=go&logoColor=white\\\"\\n- alt: Markdown\\n  src: \\\"https://img.shields.io/badge/Markdown-000000?logo=Markdown&logoColor=white\\\"\\n- alt: Docker\\n  src: \\\"https://img.shields.io/badge/Docker-white?logo=docker&logoColor=25BEFA\\\"\\n- alt: Insomnia\\n  src: \\\"https://img.shields.io/badge/Insomnia-black?logo=insomnia&logoColor=5849BE\\\"\\n- alt: Jira\\n  src: \\\"https://img.shields.io/badge/Jira-white?logo=jira&logoColor=0078D4\\\"\\n- alt: Java\\n  src: \\\"https://img.shields.io/badge/Java-FC7565?logo=java&logoColor=white\\\"\\n- alt: Postman\\n  src: \\\"https://img.shields.io/badge/Postman-FF6C37?logo=postman&logoColor=white\\\"\\n- alt: Stack Overflow\\n  src: \\\"https://img.shields.io/badge/-Stack%20Overflow-FE7A16?logo=stack-overflow&logoColor=white\\\"\\n- alt: Visual Studio Code\\n  src: \\\"https://img.shields.io/badge/Visual_Studio_Code-0078D4?logo=visual%20studio%20code&logoColor=white\\\"\\n- alt: XCode\\n  src: \\\"https://img.shields.io/badge/Xcode-0785DF?logo=xcode&logoColor=white\\\"\\n- alt: Notion\\n  src: \\\"https://img.shields.io/badge/Notion-010101?logo=notion&logoColor=white\\\"\\n- alt: Firebase\\n  src: \\\"https://img.shields.io/badge/Firebase-FFBD46?logo=firebase&logoColor=white\\\"\\n- alt: Figma\\n  src: \\\"https://img.shields.io/badge/Figma-121011?logo=figma&logoColor=white\\\"\\n- alt: Android Studio\\n  src: \\\"https://img.shields.io/badge/Android%20Studio-008678?logo=android-studio&logoColor=white\\\"\\n- alt: Cypress\\n  src: \\\"https://img.shields.io/badge/-cypress-%23E5E5E5?logo=cypress&logoColor=058a5e\\\"\\n- alt: Git\\n  src: \\\"https://img.shields.io/badge/Git-F05033?logo=git&logoColor=white\\\"\\n- alt: GitHub\\n  src: \\\"https://img.shields.io/badge/GitHub-333333?logo=github&logoColor=white\\\"\\n- alt: GitLab\\n  src: \\\"https://img.shields.io/badge/GitLab-EE4700?logo=gitlab&logoColor=white\\\"\";\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (js_yaml__WEBPACK_IMPORTED_MODULE_0__[\"default\"].load(yamlFiles));\n\n//# sourceURL=webpack://anwar907.github.io/./src/assets/assets.js?");
+
+/***/ }),
+
+/***/ "./src/assets/img/antm/index.js":
+/*!**************************************!*\
+  !*** ./src/assets/img/antm/index.js ***!
+  \**************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   antmCart: () => (/* reexport safe */ _cart_bg_png__WEBPACK_IMPORTED_MODULE_0__[\"default\"]),\n/* harmony export */   antmConfirm: () => (/* reexport safe */ _confirm_bg_png__WEBPACK_IMPORTED_MODULE_1__[\"default\"]),\n/* harmony export */   antmHistory: () => (/* reexport safe */ _history_bg_png__WEBPACK_IMPORTED_MODULE_2__[\"default\"]),\n/* harmony export */   antmHome: () => (/* reexport safe */ _home_bg_png__WEBPACK_IMPORTED_MODULE_3__[\"default\"]),\n/* harmony export */   antmProduct: () => (/* reexport safe */ _product_bg_png__WEBPACK_IMPORTED_MODULE_4__[\"default\"]),\n/* harmony export */   antmSplash: () => (/* reexport safe */ _splash_bg_png__WEBPACK_IMPORTED_MODULE_5__[\"default\"]),\n/* harmony export */   antmTransaction: () => (/* reexport safe */ _transaction_bg_png__WEBPACK_IMPORTED_MODULE_6__[\"default\"])\n/* harmony export */ });\n/* harmony import */ var _cart_bg_png__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./cart-bg.png */ \"./src/assets/img/antm/cart-bg.png\");\n/* harmony import */ var _confirm_bg_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./confirm-bg.png */ \"./src/assets/img/antm/confirm-bg.png\");\n/* harmony import */ var _history_bg_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./history-bg.png */ \"./src/assets/img/antm/history-bg.png\");\n/* harmony import */ var _home_bg_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./home-bg.png */ \"./src/assets/img/antm/home-bg.png\");\n/* harmony import */ var _product_bg_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./product-bg.png */ \"./src/assets/img/antm/product-bg.png\");\n/* harmony import */ var _splash_bg_png__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./splash-bg.png */ \"./src/assets/img/antm/splash-bg.png\");\n/* harmony import */ var _transaction_bg_png__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./transaction-bg.png */ \"./src/assets/img/antm/transaction-bg.png\");\n\n\n\n\n\n\n\n\n\n//# sourceURL=webpack://anwar907.github.io/./src/assets/img/antm/index.js?");
+
+/***/ }),
+
+/***/ "./src/assets/img/bookingninjas/index.js":
+/*!***********************************************!*\
+  !*** ./src/assets/img/bookingninjas/index.js ***!
+  \***********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   bookHistory: () => (/* reexport safe */ _history_png__WEBPACK_IMPORTED_MODULE_0__[\"default\"]),\n/* harmony export */   bookLogin: () => (/* reexport safe */ _login_png__WEBPACK_IMPORTED_MODULE_1__[\"default\"]),\n/* harmony export */   bookProfile: () => (/* reexport safe */ _profile_png__WEBPACK_IMPORTED_MODULE_2__[\"default\"]),\n/* harmony export */   bookTask: () => (/* reexport safe */ _task_png__WEBPACK_IMPORTED_MODULE_3__[\"default\"]),\n/* harmony export */   bookTask1: () => (/* reexport safe */ _task1_png__WEBPACK_IMPORTED_MODULE_4__[\"default\"])\n/* harmony export */ });\n/* harmony import */ var _history_png__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./history.png */ \"./src/assets/img/bookingninjas/history.png\");\n/* harmony import */ var _login_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./login.png */ \"./src/assets/img/bookingninjas/login.png\");\n/* harmony import */ var _profile_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./profile.png */ \"./src/assets/img/bookingninjas/profile.png\");\n/* harmony import */ var _task_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./task.png */ \"./src/assets/img/bookingninjas/task.png\");\n/* harmony import */ var _task1_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./task1.png */ \"./src/assets/img/bookingninjas/task1.png\");\n\n\n\n\n\n\n\n//# sourceURL=webpack://anwar907.github.io/./src/assets/img/bookingninjas/index.js?");
+
+/***/ }),
+
+/***/ "./src/assets/img/food/index.js":
+/*!**************************************!*\
+  !*** ./src/assets/img/food/index.js ***!
+  \**************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   foodHome: () => (/* reexport safe */ _home_svg__WEBPACK_IMPORTED_MODULE_0__[\"default\"]),\n/* harmony export */   foodMakanan: () => (/* reexport safe */ _makanan_svg__WEBPACK_IMPORTED_MODULE_1__[\"default\"]),\n/* harmony export */   foodPembayaran: () => (/* reexport safe */ _pembayaran_svg__WEBPACK_IMPORTED_MODULE_2__[\"default\"]),\n/* harmony export */   foodPesanan: () => (/* reexport safe */ _pesanan_svg__WEBPACK_IMPORTED_MODULE_3__[\"default\"]),\n/* harmony export */   foodProfil: () => (/* reexport safe */ _profil_svg__WEBPACK_IMPORTED_MODULE_4__[\"default\"])\n/* harmony export */ });\n/* harmony import */ var _home_svg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./home.svg */ \"./src/assets/img/food/home.svg\");\n/* harmony import */ var _makanan_svg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./makanan.svg */ \"./src/assets/img/food/makanan.svg\");\n/* harmony import */ var _pembayaran_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./pembayaran.svg */ \"./src/assets/img/food/pembayaran.svg\");\n/* harmony import */ var _pesanan_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./pesanan.svg */ \"./src/assets/img/food/pesanan.svg\");\n/* harmony import */ var _profil_svg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./profil.svg */ \"./src/assets/img/food/profil.svg\");\n\n\n\n\n\n\n\n//# sourceURL=webpack://anwar907.github.io/./src/assets/img/food/index.js?");
+
+/***/ }),
+
+/***/ "./src/assets/img/foxlogger/index.js":
+/*!*******************************************!*\
+  !*** ./src/assets/img/foxlogger/index.js ***!
+  \*******************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   foxDetails: () => (/* reexport safe */ _details_bg_png__WEBPACK_IMPORTED_MODULE_0__[\"default\"]),\n/* harmony export */   foxHome: () => (/* reexport safe */ _Home_bg_png__WEBPACK_IMPORTED_MODULE_1__[\"default\"]),\n/* harmony export */   foxList: () => (/* reexport safe */ _list_bg_png__WEBPACK_IMPORTED_MODULE_2__[\"default\"]),\n/* harmony export */   foxLogin: () => (/* reexport safe */ _login_bg_png__WEBPACK_IMPORTED_MODULE_3__[\"default\"]),\n/* harmony export */   foxProfile: () => (/* reexport safe */ _profile_bg_png__WEBPACK_IMPORTED_MODULE_4__[\"default\"])\n/* harmony export */ });\n/* harmony import */ var _details_bg_png__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./details-bg.png */ \"./src/assets/img/foxlogger/details-bg.png\");\n/* harmony import */ var _Home_bg_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Home-bg.png */ \"./src/assets/img/foxlogger/Home-bg.png\");\n/* harmony import */ var _list_bg_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./list-bg.png */ \"./src/assets/img/foxlogger/list-bg.png\");\n/* harmony import */ var _login_bg_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./login-bg.png */ \"./src/assets/img/foxlogger/login-bg.png\");\n/* harmony import */ var _profile_bg_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./profile-bg.png */ \"./src/assets/img/foxlogger/profile-bg.png\");\n\n\n\n\n\n\n\n//# sourceURL=webpack://anwar907.github.io/./src/assets/img/foxlogger/index.js?");
+
+/***/ }),
+
+/***/ "./src/assets/img/gokampus/index.js":
+/*!******************************************!*\
+  !*** ./src/assets/img/gokampus/index.js ***!
+  \******************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   gkHome: () => (/* reexport safe */ _home_bg_png__WEBPACK_IMPORTED_MODULE_1__[\"default\"]),\n/* harmony export */   gkLms: () => (/* reexport safe */ _lms_bg_png__WEBPACK_IMPORTED_MODULE_2__[\"default\"]),\n/* harmony export */   gkLogin: () => (/* reexport safe */ _class_bg_png__WEBPACK_IMPORTED_MODULE_0__[\"default\"])\n/* harmony export */ });\n/* harmony import */ var _class_bg_png__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./class-bg.png */ \"./src/assets/img/gokampus/class-bg.png\");\n/* harmony import */ var _home_bg_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./home-bg.png */ \"./src/assets/img/gokampus/home-bg.png\");\n/* harmony import */ var _lms_bg_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./lms-bg.png */ \"./src/assets/img/gokampus/lms-bg.png\");\n\n\n\n\n\n//# sourceURL=webpack://anwar907.github.io/./src/assets/img/gokampus/index.js?");
+
+/***/ }),
+
+/***/ "./src/assets/img/lingo/index.js":
+/*!***************************************!*\
+  !*** ./src/assets/img/lingo/index.js ***!
+  \***************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   lingoCourse: () => (/* reexport safe */ _course_svg__WEBPACK_IMPORTED_MODULE_0__[\"default\"]),\n/* harmony export */   lingoDashboard: () => (/* reexport safe */ _dashboard_svg__WEBPACK_IMPORTED_MODULE_1__[\"default\"]),\n/* harmony export */   lingoExplore: () => (/* reexport safe */ _explore_svg__WEBPACK_IMPORTED_MODULE_2__[\"default\"]),\n/* harmony export */   lingoLevel: () => (/* reexport safe */ _level_svg__WEBPACK_IMPORTED_MODULE_3__[\"default\"])\n/* harmony export */ });\n/* harmony import */ var _course_svg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./course.svg */ \"./src/assets/img/lingo/course.svg\");\n/* harmony import */ var _dashboard_svg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./dashboard.svg */ \"./src/assets/img/lingo/dashboard.svg\");\n/* harmony import */ var _explore_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./explore.svg */ \"./src/assets/img/lingo/explore.svg\");\n/* harmony import */ var _level_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./level.svg */ \"./src/assets/img/lingo/level.svg\");\n\n\n\n\n\n\n//# sourceURL=webpack://anwar907.github.io/./src/assets/img/lingo/index.js?");
+
+/***/ }),
+
+/***/ "./src/assets/img/sika/index.js":
+/*!**************************************!*\
+  !*** ./src/assets/img/sika/index.js ***!
+  \**************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   sikaChart: () => (/* reexport safe */ _p5_png__WEBPACK_IMPORTED_MODULE_4__[\"default\"]),\n/* harmony export */   sikaForm: () => (/* reexport safe */ _p2_png__WEBPACK_IMPORTED_MODULE_1__[\"default\"]),\n/* harmony export */   sikaHistory: () => (/* reexport safe */ _p4_png__WEBPACK_IMPORTED_MODULE_3__[\"default\"]),\n/* harmony export */   sikaHome: () => (/* reexport safe */ _p3_png__WEBPACK_IMPORTED_MODULE_2__[\"default\"]),\n/* harmony export */   sikaProfile: () => (/* reexport safe */ _profile_png__WEBPACK_IMPORTED_MODULE_5__[\"default\"]),\n/* harmony export */   sikaRecord: () => (/* reexport safe */ _p1_png__WEBPACK_IMPORTED_MODULE_0__[\"default\"])\n/* harmony export */ });\n/* harmony import */ var _p1_png__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./p1.png */ \"./src/assets/img/sika/p1.png\");\n/* harmony import */ var _p2_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./p2.png */ \"./src/assets/img/sika/p2.png\");\n/* harmony import */ var _p3_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./p3.png */ \"./src/assets/img/sika/p3.png\");\n/* harmony import */ var _p4_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./p4.png */ \"./src/assets/img/sika/p4.png\");\n/* harmony import */ var _p5_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./p5.png */ \"./src/assets/img/sika/p5.png\");\n/* harmony import */ var _profile_png__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./profile.png */ \"./src/assets/img/sika/profile.png\");\n\n\n\n\n\n\n\n\n//# sourceURL=webpack://anwar907.github.io/./src/assets/img/sika/index.js?");
+
+/***/ }),
+
+/***/ "./src/data/dataExperience.js":
+/*!************************************!*\
+  !*** ./src/data/dataExperience.js ***!
+  \************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _assets_img_antm__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../assets/img/antm */ \"./src/assets/img/antm/index.js\");\n/* harmony import */ var _assets_img_foxlogger__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../assets/img/foxlogger */ \"./src/assets/img/foxlogger/index.js\");\n/* harmony import */ var _assets_img_bookingninjas__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../assets/img/bookingninjas */ \"./src/assets/img/bookingninjas/index.js\");\n/* harmony import */ var _assets_img_gokampus__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../assets/img/gokampus */ \"./src/assets/img/gokampus/index.js\");\n/* harmony import */ var _assets_img_lingo__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../assets/img/lingo */ \"./src/assets/img/lingo/index.js\");\n/* harmony import */ var _assets_img_food__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../assets/img/food */ \"./src/assets/img/food/index.js\");\n/* harmony import */ var _assets_img_sika__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../assets/img/sika */ \"./src/assets/img/sika/index.js\");\n\n\n\n\n\n\n\nvar dataExperience = [{\n  id: \"antm\",\n  title: \"Antam Logam Mulia\",\n  url: \"\",\n  tools: \"Flutter, Dart, REST API, Xendit, Cypress, Jira, Sentry, MixPanel, GetX.\",\n  description: \"ANTAM Logam Mulia. Melayani pembelian emas secara online, praktis & aman serta memberikan informasi update grafik harga emas antam terkini. UBPP Logam Mulia berkembang menjadi satu-satunya refinery di Indonesia yang masuk dalam Good Delivery List LBMA (London Bullion Market Association) dengan produk emas batangan sebagai top brand di Indonesia yang memberikan jaminan keaslian dan kemurnian 999.9%. Produk lainnya meliputi dinar, dirham, customized product, platinum labware, dll.ANTAM Logam Mulia. Melayani pembelian emas secara online, praktis & aman serta memberikan informasi update grafik harga emas antam terkini. UBPP Logam Mulia berkembang menjadi satu-satunya refinery di Indonesia yang masuk dalam Good Delivery List LBMA (London Bullion Market Association) dengan produk emas batangan sebagai top brand di Indonesia yang memberikan jaminan keaslian dan kemurnian 999.9%. Produk lainnya meliputi dinar, dirham, customized product, platinum labware, dll.\",\n  image: _assets_img_antm__WEBPACK_IMPORTED_MODULE_0__.antmHome\n}, {\n  id: \"gokampus\",\n  title: \"goKampus\",\n  url: \"https://play.google.com/store/apps/details?id=com.and.gokampus\",\n  tools: \"Flutter, Dart, REST API, Xendit, Cypress, Jira, Sentry, MixPanel, GetX.\",\n  description: \"GoKampus adalah pintu gerbang Anda menuju pembelajaran berkelanjutan dan peningkatan karier. Dengan bermita dengan institusi terkemuka, baik di Indonesia maupun global, yakni Amazon Web Services (AWS), Merry Riana, Alterra Academy, Tokopedia Academy, dan lainnya, Anda memiliki akses ke berbagai kursus online bersertifikat. GoKampus menyediakan sumber daya yang Anda butuhkan bagi Anda yang ingin membangun keterampilan baru, meningkatkan prospek karier, atau mencapai tujuan pribadi. Mulailah perjalanan Anda menuju pelajar seumur hidup dan kesuksesan hari ini.\",\n  image: _assets_img_gokampus__WEBPACK_IMPORTED_MODULE_3__.gkHome\n}, {\n  id: \"todostaff\",\n  title: \"Bookingninjas\",\n  url: \"https://play.google.com/store/apps/details?id=com.and.todostaff\",\n  tools: \"Flutter, Dart, GetX, Integration Salesforce API.\",\n  description: \"Booking Ninjas Staff App merampingkan manajemen staf, mengoptimalkan operasi, dan meningkatkan layanan tamu. Terhubung dengan mulus ke akun Booking Ninjas utama Anda, aplikasi canggih ini memungkinkan staf Anda mengelola tugas secara efisien, melacak jam kerja, dan tetap teratur. Dari perawatan pembersihan hingga tugas administratif dan permintaan tamu, ia menawarkan serangkaian fitur yang komprehensif untuk operasi yang disederhanakan. Dengan kemampuan komunikasi yang kuat, berkolaborasi secara lancar dengan rekan kerja dan memastikan kelancaran koordinasi antar departemen. Keamanan data adalah prioritas utama, melindungi informasi sensitif. Tingkatkan pengalaman tamu, tingkatkan efisiensi, dan unduh Aplikasi Booking Ninjas Staff hari ini\",\n  image: _assets_img_bookingninjas__WEBPACK_IMPORTED_MODULE_2__.bookLogin\n}, {\n  id: \"foxlogger\",\n  title: \"Foxlogger\",\n  url: \"https://play.google.com/store/apps/details?id=com.vneu.foxlogger\",\n  tools: \"Dart, Flutter, Google Maps, Api Testing, Jira, Click up, Google Play Service, App Store Connect, MQTT Client, github, Bloc.\",\n  description: \"Where are all my hundreds operational vehicles now?  Find the best answer with Fox Logger. Just log in into your account then you can easily find out where are they now and what they did (car, motorcycle, trucks, ambulance, heavy duty, moving assets, etc).\",\n  image: _assets_img_foxlogger__WEBPACK_IMPORTED_MODULE_1__.foxHome\n}, {\n  id: \"lingo\",\n  title: \"LingoTalk\",\n  url: \"https://play.google.com/store/apps/details?id=co.lingotalk\",\n  tools: \"Flutter, Dart, Widget Testing, Google Play Service, Apps Store Connect, gitlab, Jira, Trello, GetX.\",\n  description: \"LingoTalk is a language learning platform in Indonesia with a wide selection of languages that you can learn, from English, Mandarin, Korean, Indonesian, Japanese, Thai, Arabic, French, Spanish, to German.\",\n  image: _assets_img_lingo__WEBPACK_IMPORTED_MODULE_4__.lingoDashboard\n}, {\n  id: \"food\",\n  title: \"Food Market\",\n  url: \"\",\n  tools: \"Flutter, Dart, REST API, Xendit, Cypress, Jira, Sentry, MixPanel, GetX.\",\n  description: \"In this class I learned how to build iOS and Android applications for online food ordering (such as GrabFood or GoFood). Starting from the design-to-code slicing stage to creating a special API using Laravel version 8.\",\n  image: _assets_img_food__WEBPACK_IMPORTED_MODULE_5__.foodHome\n}, {\n  id: \"sika\",\n  title: \"Aplikasi SIKA\",\n  url: \"\",\n  tools: \"This application was developed using the Flutter and Firebase framework as a realtime database to store baby nutrition data and the login method using Firebase Auth.\",\n  description: \"The ePosyandu application is to record the development of the nutritional status of infants and toddlers from 0 to 5 years during the ongoing posyandu activities which can display the results of data visualization such as obesity, above normal, normal, below normal and malnutrition\",\n  image: _assets_img_sika__WEBPACK_IMPORTED_MODULE_6__.sikaProfile\n}];\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (dataExperience);\n\n//# sourceURL=webpack://anwar907.github.io/./src/data/dataExperience.js?");
 
 /***/ }),
 
@@ -36,7 +116,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react_dom_client__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom/client */ \"./node_modules/react-dom/client.js\");\n/* harmony import */ var _app__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./app */ \"./src/app.js\");\n// // import { images } from './assets.js';\n// import tools from \"./assets/assets.js\";\n\n// // Development Tools\n// const shields = tools;\n// const container = document.getElementById('shields-container');\n// shields.forEach(shield => {\n//   const div = document.createElement('div');\n//   div.className = 'm-1';\n//   div.setAttribute('data-aos', 'fade-down');\n\n//   const img = document.createElement('img');\n//   img.alt = shield.alt;\n//   img.src = shield.src;\n\n//   div.appendChild(img);\n//   container.appendChild(div);\n// });\n\n\n// import ReactDOM from 'react-dom';\n\n\nvar root = (0,react_dom_client__WEBPACK_IMPORTED_MODULE_1__.createRoot)(document.getElementById('about'));\nroot.render( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_app__WEBPACK_IMPORTED_MODULE_2__[\"default\"], null));\n// ReactDOM.render(<App/>, document.getElementById('about'))\n\n//# sourceURL=webpack://anwar907.github.io/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react_dom_client__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom/client */ \"./node_modules/react-dom/client.js\");\n/* harmony import */ var _app__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./app */ \"./src/app.js\");\n// // import { images } from './assets.js';\n// import tools from \"./assets/assets.js\";\n\n// // Development Tools\n// const shields = tools;\n// const container = document.getElementById('shields-container');\n// shields.forEach(shield => {\n//   const div = document.createElement('div');\n//   div.className = 'm-1';\n//   div.setAttribute('data-aos', 'fade-down');\n\n//   const img = document.createElement('img');\n//   img.alt = shield.alt;\n//   img.src = shield.src;\n\n//   div.appendChild(img);\n//   container.appendChild(div);\n// });\n\n\n\n\nvar root = (0,react_dom_client__WEBPACK_IMPORTED_MODULE_1__.createRoot)(document.getElementById('root'));\nroot.render( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_app__WEBPACK_IMPORTED_MODULE_2__[\"default\"], null));\n\n//# sourceURL=webpack://anwar907.github.io/./src/index.js?");
 
 /***/ }),
 
@@ -46,7 +126,367 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var reac
   \*********************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n\nfunction ToolsDevelopment(props) {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", {\n    \"class\": \"m-1\",\n    \"data-aos\": \"fade-down\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"img\", {\n    src: props.product.src,\n    alt: props.product.alt\n  }));\n}\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (ToolsDevelopment);\n\n//# sourceURL=webpack://anwar907.github.io/./src/toolsDevelopment.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n\nfunction ToolsDevelopment(props) {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", {\n    className: \"m-1\",\n    \"data-aos\": \"fade-down\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"img\", {\n    src: props.product.src,\n    alt: props.product.alt\n  }));\n}\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (ToolsDevelopment);\n\n//# sourceURL=webpack://anwar907.github.io/./src/toolsDevelopment.js?");
+
+/***/ }),
+
+/***/ "./src/workExperience.js":
+/*!*******************************!*\
+  !*** ./src/workExperience.js ***!
+  \*******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n\nfunction Experience(props) {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", {\n    className: \"col-md-4\",\n    \"data-aos\": \"fade-down\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", {\n    className: \"img-project mb-4\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"p\", {\n    className: \"row justify-content-center \",\n    style: {\n      fontweight: 700\n    }\n  }, props.experience.title), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"img\", {\n    src: props.experience.image,\n    alt: props.experience.id,\n    className: \"image\"\n  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", {\n    className: \"overlay\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", {\n    className: \"text-display\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"p\", null, props.experience.title), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"p\", {\n    className: \"small\"\n  }, props.experience.description), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"p\", {\n    className: \"small\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"b\", null, \"Tech Stack:\"), \" \", props.experience.tools), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"button\", {\n    type: \"button\",\n    className: \"btn btn-lg tombol-ungu\",\n    \"data-toggle\": \"modal\",\n    \"data-target\": \".\" + props.experience.id\n  }, \"Preview\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"a\", {\n    href: \"\",\n    className: \"btn btn-lg tombol-site ml-3\"\n  }, \"Visit Site\")))));\n}\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Experience);\n\n//# sourceURL=webpack://anwar907.github.io/./src/workExperience.js?");
+
+/***/ }),
+
+/***/ "./src/assets/img/antm/cart-bg.png":
+/*!*****************************************!*\
+  !*** ./src/assets/img/antm/cart-bg.png ***!
+  \*****************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (\"/Users/anwar_s/Documents/anwar907.github.io/src/assets/img/antm/cart-bg.png\");\n\n//# sourceURL=webpack://anwar907.github.io/./src/assets/img/antm/cart-bg.png?");
+
+/***/ }),
+
+/***/ "./src/assets/img/antm/confirm-bg.png":
+/*!********************************************!*\
+  !*** ./src/assets/img/antm/confirm-bg.png ***!
+  \********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (\"/Users/anwar_s/Documents/anwar907.github.io/src/assets/img/antm/confirm-bg.png\");\n\n//# sourceURL=webpack://anwar907.github.io/./src/assets/img/antm/confirm-bg.png?");
+
+/***/ }),
+
+/***/ "./src/assets/img/antm/history-bg.png":
+/*!********************************************!*\
+  !*** ./src/assets/img/antm/history-bg.png ***!
+  \********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (\"/Users/anwar_s/Documents/anwar907.github.io/src/assets/img/antm/history-bg.png\");\n\n//# sourceURL=webpack://anwar907.github.io/./src/assets/img/antm/history-bg.png?");
+
+/***/ }),
+
+/***/ "./src/assets/img/antm/home-bg.png":
+/*!*****************************************!*\
+  !*** ./src/assets/img/antm/home-bg.png ***!
+  \*****************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (\"/Users/anwar_s/Documents/anwar907.github.io/src/assets/img/antm/home-bg.png\");\n\n//# sourceURL=webpack://anwar907.github.io/./src/assets/img/antm/home-bg.png?");
+
+/***/ }),
+
+/***/ "./src/assets/img/antm/product-bg.png":
+/*!********************************************!*\
+  !*** ./src/assets/img/antm/product-bg.png ***!
+  \********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (\"/Users/anwar_s/Documents/anwar907.github.io/src/assets/img/antm/product-bg.png\");\n\n//# sourceURL=webpack://anwar907.github.io/./src/assets/img/antm/product-bg.png?");
+
+/***/ }),
+
+/***/ "./src/assets/img/antm/splash-bg.png":
+/*!*******************************************!*\
+  !*** ./src/assets/img/antm/splash-bg.png ***!
+  \*******************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (\"/Users/anwar_s/Documents/anwar907.github.io/src/assets/img/antm/splash-bg.png\");\n\n//# sourceURL=webpack://anwar907.github.io/./src/assets/img/antm/splash-bg.png?");
+
+/***/ }),
+
+/***/ "./src/assets/img/antm/transaction-bg.png":
+/*!************************************************!*\
+  !*** ./src/assets/img/antm/transaction-bg.png ***!
+  \************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (\"/Users/anwar_s/Documents/anwar907.github.io/src/assets/img/antm/transaction-bg.png\");\n\n//# sourceURL=webpack://anwar907.github.io/./src/assets/img/antm/transaction-bg.png?");
+
+/***/ }),
+
+/***/ "./src/assets/img/bookingninjas/history.png":
+/*!**************************************************!*\
+  !*** ./src/assets/img/bookingninjas/history.png ***!
+  \**************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (\"/Users/anwar_s/Documents/anwar907.github.io/src/assets/img/bookingninjas/history.png\");\n\n//# sourceURL=webpack://anwar907.github.io/./src/assets/img/bookingninjas/history.png?");
+
+/***/ }),
+
+/***/ "./src/assets/img/bookingninjas/login.png":
+/*!************************************************!*\
+  !*** ./src/assets/img/bookingninjas/login.png ***!
+  \************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (\"/Users/anwar_s/Documents/anwar907.github.io/src/assets/img/bookingninjas/login.png\");\n\n//# sourceURL=webpack://anwar907.github.io/./src/assets/img/bookingninjas/login.png?");
+
+/***/ }),
+
+/***/ "./src/assets/img/bookingninjas/profile.png":
+/*!**************************************************!*\
+  !*** ./src/assets/img/bookingninjas/profile.png ***!
+  \**************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (\"/Users/anwar_s/Documents/anwar907.github.io/src/assets/img/bookingninjas/profile.png\");\n\n//# sourceURL=webpack://anwar907.github.io/./src/assets/img/bookingninjas/profile.png?");
+
+/***/ }),
+
+/***/ "./src/assets/img/bookingninjas/task.png":
+/*!***********************************************!*\
+  !*** ./src/assets/img/bookingninjas/task.png ***!
+  \***********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (\"/Users/anwar_s/Documents/anwar907.github.io/src/assets/img/bookingninjas/task.png\");\n\n//# sourceURL=webpack://anwar907.github.io/./src/assets/img/bookingninjas/task.png?");
+
+/***/ }),
+
+/***/ "./src/assets/img/bookingninjas/task1.png":
+/*!************************************************!*\
+  !*** ./src/assets/img/bookingninjas/task1.png ***!
+  \************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (\"/Users/anwar_s/Documents/anwar907.github.io/src/assets/img/bookingninjas/task1.png\");\n\n//# sourceURL=webpack://anwar907.github.io/./src/assets/img/bookingninjas/task1.png?");
+
+/***/ }),
+
+/***/ "./src/assets/img/food/home.svg":
+/*!**************************************!*\
+  !*** ./src/assets/img/food/home.svg ***!
+  \**************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (\"/Users/anwar_s/Documents/anwar907.github.io/src/assets/img/food/home.svg\");\n\n//# sourceURL=webpack://anwar907.github.io/./src/assets/img/food/home.svg?");
+
+/***/ }),
+
+/***/ "./src/assets/img/food/makanan.svg":
+/*!*****************************************!*\
+  !*** ./src/assets/img/food/makanan.svg ***!
+  \*****************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (\"/Users/anwar_s/Documents/anwar907.github.io/src/assets/img/food/makanan.svg\");\n\n//# sourceURL=webpack://anwar907.github.io/./src/assets/img/food/makanan.svg?");
+
+/***/ }),
+
+/***/ "./src/assets/img/food/pembayaran.svg":
+/*!********************************************!*\
+  !*** ./src/assets/img/food/pembayaran.svg ***!
+  \********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (\"/Users/anwar_s/Documents/anwar907.github.io/src/assets/img/food/pembayaran.svg\");\n\n//# sourceURL=webpack://anwar907.github.io/./src/assets/img/food/pembayaran.svg?");
+
+/***/ }),
+
+/***/ "./src/assets/img/food/pesanan.svg":
+/*!*****************************************!*\
+  !*** ./src/assets/img/food/pesanan.svg ***!
+  \*****************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (\"/Users/anwar_s/Documents/anwar907.github.io/src/assets/img/food/pesanan.svg\");\n\n//# sourceURL=webpack://anwar907.github.io/./src/assets/img/food/pesanan.svg?");
+
+/***/ }),
+
+/***/ "./src/assets/img/food/profil.svg":
+/*!****************************************!*\
+  !*** ./src/assets/img/food/profil.svg ***!
+  \****************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (\"/Users/anwar_s/Documents/anwar907.github.io/src/assets/img/food/profil.svg\");\n\n//# sourceURL=webpack://anwar907.github.io/./src/assets/img/food/profil.svg?");
+
+/***/ }),
+
+/***/ "./src/assets/img/foxlogger/Home-bg.png":
+/*!**********************************************!*\
+  !*** ./src/assets/img/foxlogger/Home-bg.png ***!
+  \**********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (\"/Users/anwar_s/Documents/anwar907.github.io/src/assets/img/foxlogger/Home-bg.png\");\n\n//# sourceURL=webpack://anwar907.github.io/./src/assets/img/foxlogger/Home-bg.png?");
+
+/***/ }),
+
+/***/ "./src/assets/img/foxlogger/details-bg.png":
+/*!*************************************************!*\
+  !*** ./src/assets/img/foxlogger/details-bg.png ***!
+  \*************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (\"/Users/anwar_s/Documents/anwar907.github.io/src/assets/img/foxlogger/details-bg.png\");\n\n//# sourceURL=webpack://anwar907.github.io/./src/assets/img/foxlogger/details-bg.png?");
+
+/***/ }),
+
+/***/ "./src/assets/img/foxlogger/list-bg.png":
+/*!**********************************************!*\
+  !*** ./src/assets/img/foxlogger/list-bg.png ***!
+  \**********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (\"/Users/anwar_s/Documents/anwar907.github.io/src/assets/img/foxlogger/list-bg.png\");\n\n//# sourceURL=webpack://anwar907.github.io/./src/assets/img/foxlogger/list-bg.png?");
+
+/***/ }),
+
+/***/ "./src/assets/img/foxlogger/login-bg.png":
+/*!***********************************************!*\
+  !*** ./src/assets/img/foxlogger/login-bg.png ***!
+  \***********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (\"/Users/anwar_s/Documents/anwar907.github.io/src/assets/img/foxlogger/login-bg.png\");\n\n//# sourceURL=webpack://anwar907.github.io/./src/assets/img/foxlogger/login-bg.png?");
+
+/***/ }),
+
+/***/ "./src/assets/img/foxlogger/profile-bg.png":
+/*!*************************************************!*\
+  !*** ./src/assets/img/foxlogger/profile-bg.png ***!
+  \*************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (\"/Users/anwar_s/Documents/anwar907.github.io/src/assets/img/foxlogger/profile-bg.png\");\n\n//# sourceURL=webpack://anwar907.github.io/./src/assets/img/foxlogger/profile-bg.png?");
+
+/***/ }),
+
+/***/ "./src/assets/img/gokampus/class-bg.png":
+/*!**********************************************!*\
+  !*** ./src/assets/img/gokampus/class-bg.png ***!
+  \**********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (\"/Users/anwar_s/Documents/anwar907.github.io/src/assets/img/gokampus/class-bg.png\");\n\n//# sourceURL=webpack://anwar907.github.io/./src/assets/img/gokampus/class-bg.png?");
+
+/***/ }),
+
+/***/ "./src/assets/img/gokampus/home-bg.png":
+/*!*********************************************!*\
+  !*** ./src/assets/img/gokampus/home-bg.png ***!
+  \*********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (\"/Users/anwar_s/Documents/anwar907.github.io/src/assets/img/gokampus/home-bg.png\");\n\n//# sourceURL=webpack://anwar907.github.io/./src/assets/img/gokampus/home-bg.png?");
+
+/***/ }),
+
+/***/ "./src/assets/img/gokampus/lms-bg.png":
+/*!********************************************!*\
+  !*** ./src/assets/img/gokampus/lms-bg.png ***!
+  \********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (\"/Users/anwar_s/Documents/anwar907.github.io/src/assets/img/gokampus/lms-bg.png\");\n\n//# sourceURL=webpack://anwar907.github.io/./src/assets/img/gokampus/lms-bg.png?");
+
+/***/ }),
+
+/***/ "./src/assets/img/lingo/course.svg":
+/*!*****************************************!*\
+  !*** ./src/assets/img/lingo/course.svg ***!
+  \*****************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (\"/Users/anwar_s/Documents/anwar907.github.io/src/assets/img/lingo/course.svg\");\n\n//# sourceURL=webpack://anwar907.github.io/./src/assets/img/lingo/course.svg?");
+
+/***/ }),
+
+/***/ "./src/assets/img/lingo/dashboard.svg":
+/*!********************************************!*\
+  !*** ./src/assets/img/lingo/dashboard.svg ***!
+  \********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (\"/Users/anwar_s/Documents/anwar907.github.io/src/assets/img/lingo/dashboard.svg\");\n\n//# sourceURL=webpack://anwar907.github.io/./src/assets/img/lingo/dashboard.svg?");
+
+/***/ }),
+
+/***/ "./src/assets/img/lingo/explore.svg":
+/*!******************************************!*\
+  !*** ./src/assets/img/lingo/explore.svg ***!
+  \******************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (\"/Users/anwar_s/Documents/anwar907.github.io/src/assets/img/lingo/explore.svg\");\n\n//# sourceURL=webpack://anwar907.github.io/./src/assets/img/lingo/explore.svg?");
+
+/***/ }),
+
+/***/ "./src/assets/img/lingo/level.svg":
+/*!****************************************!*\
+  !*** ./src/assets/img/lingo/level.svg ***!
+  \****************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (\"/Users/anwar_s/Documents/anwar907.github.io/src/assets/img/lingo/level.svg\");\n\n//# sourceURL=webpack://anwar907.github.io/./src/assets/img/lingo/level.svg?");
+
+/***/ }),
+
+/***/ "./src/assets/img/sika/p1.png":
+/*!************************************!*\
+  !*** ./src/assets/img/sika/p1.png ***!
+  \************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (\"/Users/anwar_s/Documents/anwar907.github.io/src/assets/img/sika/p1.png\");\n\n//# sourceURL=webpack://anwar907.github.io/./src/assets/img/sika/p1.png?");
+
+/***/ }),
+
+/***/ "./src/assets/img/sika/p2.png":
+/*!************************************!*\
+  !*** ./src/assets/img/sika/p2.png ***!
+  \************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (\"/Users/anwar_s/Documents/anwar907.github.io/src/assets/img/sika/p2.png\");\n\n//# sourceURL=webpack://anwar907.github.io/./src/assets/img/sika/p2.png?");
+
+/***/ }),
+
+/***/ "./src/assets/img/sika/p3.png":
+/*!************************************!*\
+  !*** ./src/assets/img/sika/p3.png ***!
+  \************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (\"/Users/anwar_s/Documents/anwar907.github.io/src/assets/img/sika/p3.png\");\n\n//# sourceURL=webpack://anwar907.github.io/./src/assets/img/sika/p3.png?");
+
+/***/ }),
+
+/***/ "./src/assets/img/sika/p4.png":
+/*!************************************!*\
+  !*** ./src/assets/img/sika/p4.png ***!
+  \************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (\"/Users/anwar_s/Documents/anwar907.github.io/src/assets/img/sika/p4.png\");\n\n//# sourceURL=webpack://anwar907.github.io/./src/assets/img/sika/p4.png?");
+
+/***/ }),
+
+/***/ "./src/assets/img/sika/p5.png":
+/*!************************************!*\
+  !*** ./src/assets/img/sika/p5.png ***!
+  \************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (\"/Users/anwar_s/Documents/anwar907.github.io/src/assets/img/sika/p5.png\");\n\n//# sourceURL=webpack://anwar907.github.io/./src/assets/img/sika/p5.png?");
+
+/***/ }),
+
+/***/ "./src/assets/img/sika/profile.png":
+/*!*****************************************!*\
+  !*** ./src/assets/img/sika/profile.png ***!
+  \*****************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (\"/Users/anwar_s/Documents/anwar907.github.io/src/assets/img/sika/profile.png\");\n\n//# sourceURL=webpack://anwar907.github.io/./src/assets/img/sika/profile.png?");
 
 /***/ }),
 
