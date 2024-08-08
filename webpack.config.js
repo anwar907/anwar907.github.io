@@ -27,7 +27,7 @@ module.exports = {
             loader: 'file-loader',
             options: {
               name: '[path][name].[ext]',
-              context: '/',
+              context: 'src',
               outputPath: '/',
               publicPath: '/',
             },
