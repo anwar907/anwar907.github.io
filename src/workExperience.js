@@ -7,7 +7,7 @@ function Experience(props) {
           {props.experience.title}
         </p>
         <img
-          src={props.experience.image}
+          src={"src" + props.experience.image}
           alt={props.experience.id}
           className="image"
         />
