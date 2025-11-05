@@ -10,6 +10,8 @@ jobs:
     
     steps:
     - uses: actions/checkout@v3
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
     
     - name: Setup Node.js
       uses: actions/setup-node@v3
@@ -25,8 +27,11 @@ jobs:
         NODE_ENV: production
       run: npm run build
     
-    - name: Deploy to GitHub Pages
-      uses: peaceiris/actions-gh-pages@v3
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./dist
+    - name: Deploy to root
+      run: |
+        git config user.name "github-actions[bot]"
+        git config user.email "github-actions[bot]@users.noreply.github.com"
+        cp -r dist/* .
+        git add *.html *.js *.css assets/ 2>/dev/null || true
+        git diff --staged --quiet || git commit -m "Deploy: Update build files"
+        git push
