@@ -6,8 +6,8 @@ module.exports = {
   output: {
     filename: 'bundle.[contenthash].js',
     path: path.resolve(__dirname, 'dist'),
-    publicPath: process.env.NODE_ENV === 'production' ? '/anwar907.github.io/' : '/',
-    clean: true
+    publicPath: process.env.NODE_ENV === 'production' ? '/anwar907.github.io/dist/index.html' : '/',
+    clean: false
   },
   performance: {
     maxAssetSize: 1000000,
