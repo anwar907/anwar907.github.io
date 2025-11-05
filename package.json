@@ -28,7 +28,7 @@
     "webpack-dev-server": "^4.15.1"
   },
   "scripts": {
-    "build": "webpack --mode production && cp -R dist/* .",
+    "build": "webpack --mode production && cp dist/index.html index.html",
     "dev": "webpack serve --mode development",
     "serve": "python3 -m http.server 8080"
   },
