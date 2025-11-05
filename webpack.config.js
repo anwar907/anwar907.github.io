@@ -1,44 +1,70 @@
 const path = require('path');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
-  entry: './src/index.js',
+  entry: './src/index.tsx',
   output: {
-    filename: 'bundle.js',
+    filename: 'bundle.[contenthash].js',
     path: path.resolve(__dirname, 'dist'),
-    publicPath: '/'
+    publicPath: './',
+    clean: true
   },
-  stats: {
-    errorDetails: true
+  performance: {
+    maxAssetSize: 1000000,
+    maxEntrypointSize: 1000000,
+    hints: 'warning'
   },
-  mode: 'development',
+  resolve: {
+    extensions: ['.tsx', '.ts', '.js', '.jsx']
+  },
   module: {
     rules: [
       {
-        test: /\.js$/,
+        test: /\.(ts|tsx)$/,
         exclude: /node_modules/,
-        use: {
-          loader: 'babel-loader'
-        }
-      },
-      {
-        test: /\.(png|jpe?g|gif|svg|woff|woff2|eot|ttf|otf)$/i,
         use: [
           {
-            loader: 'file-loader',
+            loader: 'babel-loader',
             options: {
-              name: '[path][name].[ext]',
-              context: 'src',
-              outputPath: '/',
-              publicPath: '/',
-            },
+              presets: [
+                ['@babel/preset-env', {
+                  targets: {
+                    browsers: ['> 1%', 'last 2 versions', 'ie >= 11']
+                  },
+                  useBuiltIns: 'entry',
+                  corejs: 3
+                }],
+                '@babel/preset-react',
+                '@babel/preset-typescript'
+              ]
+            }
           }
         ]
       },
       {
+        test: /\.(png|jpe?g|gif|svg|woff|woff2|eot|ttf|otf)$/i,
+        type: 'asset/resource',
+        generator: {
+          filename: 'assets/[name].[hash:8][ext]'
+        }
+      },
+      {
         test: /\.css$/i,
-        use: ['style-loader', 'css-loader'],
-    },
+        use: ['style-loader', 'css-loader']
+      }
     ]
   },
-  
+  plugins: [
+    new HtmlWebpackPlugin({
+      template: './src/index.html',
+      filename: 'index.html'
+    })
+  ],
+  devServer: {
+    static: {
+      directory: path.join(__dirname, 'dist')
+    },
+    port: 3000,
+    open: true
+  }
 }

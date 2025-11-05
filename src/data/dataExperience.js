@@ -1,24 +1,19 @@
 
-import { antmHome } from "../assets/img/antm";
-
-import { foxHome } from "../assets/img/foxlogger";
-
-import { bookLogin } from "../assets/img/bookingninjas";
-
-import { gkHome } from "../assets/img/gokampus";
-
-import { lingoDashboard } from "../assets/img/lingo";
-
-import { foodHome } from "../assets/img/food";
-
-import { sikaProfile } from "../assets/img/sika";
+// Import images will be handled by webpack
+const antmHome = "./dist/assets/home-bg.37de688c.png";
+const foxHome = "./dist/assets/foxhome-bg.c9aeb155.png";
+const bookLogin = "./dist/assets/login.95d4f289.png";
+const gkHome = "./dist/assets/home-bg.000c1c2c.png";
+const lingoDashboard = "./dist/assets/dashboard.97925852.svg";
+const foodHome = "./dist/assets/home.8bee1398.svg";
+const sikaProfile = "./dist/assets/profile.d6447e70.png";
 
 
 const dataExperience = [
   {
     id: "antm",
     title: "Antam Logam Mulia",
-    url: "",
+    url: "https://play.google.com/store/apps/details?id=com.antam.digitalgold",
     tools:
       "Flutter, Dart, REST API, Xendit, Cypress, Jira, Sentry, MixPanel, GetX.",
     description:
@@ -38,7 +33,7 @@ const dataExperience = [
   {
     id: "todostaff",
     title: "Bookingninjas",
-    url: "https://play.google.com/store/apps/details?id=com.and.todostaff",
+    url: "https://www.bookingninjas.com/",
     tools: "Flutter, Dart, GetX, Integration Salesforce API.",
     description:
       "Booking Ninjas Staff App merampingkan manajemen staf, mengoptimalkan operasi, dan meningkatkan layanan tamu. Terhubung dengan mulus ke akun Booking Ninjas utama Anda, aplikasi canggih ini memungkinkan staf Anda mengelola tugas secara efisien, melacak jam kerja, dan tetap teratur. Dari perawatan pembersihan hingga tugas administratif dan permintaan tamu, ia menawarkan serangkaian fitur yang komprehensif untuk operasi yang disederhanakan. Dengan kemampuan komunikasi yang kuat, berkolaborasi secara lancar dengan rekan kerja dan memastikan kelancaran koordinasi antar departemen. Keamanan data adalah prioritas utama, melindungi informasi sensitif. Tingkatkan pengalaman tamu, tingkatkan efisiensi, dan unduh Aplikasi Booking Ninjas Staff hari ini",
@@ -57,7 +52,7 @@ const dataExperience = [
   {
     id: "lingo",
     title: "LingoTalk",
-    url: "https://play.google.com/store/apps/details?id=co.lingotalk",
+    url: "https://lingotalk.org/",
     tools:
       "Flutter, Dart, Widget Testing, Google Play Service, Apps Store Connect, gitlab, Jira, Trello, GetX.",
     description:

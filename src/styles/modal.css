@@ -1,0 +1,78 @@
+/* Modal Carousel Controls */
+.carousel-control-prev,
+.carousel-control-next {
+  width: 5%;
+  color: #000;
+  opacity: 0.8;
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+  opacity: 1;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  width: 30px;
+  height: 30px;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 50%;
+  padding: 8px;
+}
+
+.carousel-control-prev-icon:before {
+  content: '‹';
+  font-size: 24px;
+  color: white;
+  font-weight: bold;
+}
+
+.carousel-control-next-icon:before {
+  content: '›';
+  font-size: 24px;
+  color: white;
+  font-weight: bold;
+}
+
+/* Modal responsive */
+.modal-xl .modal-content {
+  max-height: 90vh;
+  overflow-y: auto;
+}
+
+.carousel-inner {
+  text-align: center;
+  background: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+/* Custom navigation buttons */
+.custom-nav-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+  cursor: pointer;
+  z-index: 10;
+  transition: all 0.3s ease;
+}
+
+.custom-nav-btn:hover {
+  background: rgba(0, 0, 0, 0.9);
+  transform: translateY(-50%) scale(1.1);
+}
+
+.custom-nav-btn.prev {
+  left: 20px;
+}
+
+.custom-nav-btn.next {
+  right: 20px;
+}

@@ -3,11 +3,11 @@ function Experience(props) {
   return (
     <div className="col-md-4" data-aos="fade-down">
       <div className="img-project mb-4">
-        <p className="row justify-content-center " style={{ fontweight: 700 }}>
+        <p className="row justify-content-center " style={{ fontWeight: 700 }}>
           {props.experience.title}
         </p>
         <img
-          src={"src" + props.experience.image}
+          src={props.experience.image}
           alt={props.experience.id}
           className="image"
         />
@@ -26,7 +26,7 @@ function Experience(props) {
             >
               Preview
             </button>
-            <a href="" className="btn btn-lg tombol-site ml-3">
+            <a href={props.experience.url} className="btn btn-lg tombol-site ml-3">
               Visit Site
             </a>
           </div>
