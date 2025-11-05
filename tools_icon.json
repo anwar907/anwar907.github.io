@@ -9,6 +9,21 @@
       "alt":"Dart", "src":"https://img.shields.io/badge/Dart-25BEFA?logo=dart&logoColor=white"
     },
     {
+      "alt":"NodeJS", "src":"https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white"
+    },
+    {
+      "alt":"TypeScript", "src":"https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white"
+    },
+    {
+      "alt":"JavaScript", "src":"https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black"
+    },
+    {
+      "alt":"AI", "src":"https://img.shields.io/badge/AI-FFFFFF?logo=ai&logoColor=black"
+    },
+    {
+      "alt":"OpenAI", "src":"https://img.shields.io/badge/OpenAI-000000?logo=openai&logoColor=white"
+    },
+    {
       "alt":"HTML", "src":"https://img.shields.io/badge/HTML-E34F26?logo=html5&logoColor=white"
     },
     {
@@ -22,9 +37,6 @@
     },
     {
       "alt":"Flutter", "src":"https://img.shields.io/badge/Flutter-25BEFA?logo=flutter&logoColor=white"
-    },
-    {
-      "alt":"Java", "src":"https://img.shields.io/badge/Java-FC7565?logo=java&logoColor=white"
     },
     {
       "alt":"Android", "src":"https://img.shields.io/badge/Android-36C89C?logo=android&logoColor=white"
@@ -77,5 +89,62 @@
     },
     {
       "alt":"Docker", "src":"https://img.shields.io/badge/Docker-white?logo=docker&logoColor=25BEFA"
+    },
+    {
+      "alt":"React Native", "src":"https://img.shields.io/badge/React%20Native-61DAFB?logo=react&logoColor=white"
+    },
+    {
+      "alt":"Express", "src":"https://img.shields.io/badge/Express-000000?logo=express&logoColor=white"
+    },
+    {
+      "alt":"SQL", "src":"https://img.shields.io/badge/-SQL-000?&logo=MySQL&logoColor=4479A1"
+    },
+    {
+      "alt":"PostgreSQL", "src":"https://img.shields.io/badge/PostgreSQL-316192?logo=postgresql&logoColor=white"
+    },
+    {
+      "alt":"Front-End", "src":"https://img.shields.io/badge/Front-End-FFFFFF?logo=front-end&logoColor=black"
+    },
+    {
+      "alt":"Tailwind CSS", "src":"https://img.shields.io/badge/Tailwind%20CSS-06B6D4?logo=tailwind%20css&logoColor=white"
+    },
+    {
+      "alt":"Artificial Intelligence", "src":"https://img.shields.io/badge/Artificial%20Intelligence-FFFFFF?logo=artificial%20intelligence&logoColor=black"
+    },
+    {
+      "alt":"AI Integration", "src":"https://img.shields.io/badge/AI%20Integration-FFFFFF?logo=ai%20integration&logoColor=black"
+    },
+    {
+      "alt":"AWS AI Bedrock", "src":"https://img.shields.io/badge/AWS%20AI%20Bedrock-FFFFFF?logo=aws%20ai%20bedrock&logoColor=black"
+    },
+    {
+      "alt":"Claude", "src":"https://img.shields.io/badge/Claude-FFFFFF?logo=claude&logoColor=orange"
+    },
+    {
+      "alt":"Cursor AI", "src":"https://img.shields.io/badge/Cursor%20AI-FFFFFF?logo=cursor%20ai&logoColor=black"
+    },
+    {
+      "alt":"MCP Server", "src":"https://img.shields.io/badge/MCP%20Server-FFFFFF?logo=mcp%20server&logoColor=black"
+    },
+    {
+      "alt":"Supabase", "src":"https://img.shields.io/badge/Supabase-green?logo=supabase&logoColor=black"
+    },
+    {
+      "alt":"Mix panel", "src":"https://img.shields.io/badge/Mix%20panel-FFFFFF?logo=mix%20panel&logoColor=black"
+    },
+    {
+      "alt":"Amplitude", "src":"https://img.shields.io/badge/Amplitude-FFFFFF?logo=amplitude&logoColor=black"
+    },
+    {
+      "alt":"Clarity", "src":"https://img.shields.io/badge/Clarity-FFFFFF?logo=clarity&logoColor=black"
+    },
+    {
+      "alt":"Sentry", "src":"https://img.shields.io/badge/Sentry-FFFFFF?logo=sentry&logoColor=red"
+    },
+    {
+      "alt":"Appstore", "src":"https://img.shields.io/badge/Appstore-FFFFFF?logo=appstore&logoColor=blue"
+    },
+    {
+      "alt":"Play store", "src":"https://img.shields.io/badge/Google%20Play-34A853?style=flat&logo=google-play&logoColor=white"
     }
   ]

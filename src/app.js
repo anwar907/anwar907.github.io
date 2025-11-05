@@ -1,12 +1,13 @@
 import React from "react";
 import dataExperience from "./data/dataExperience";
 import Experience from "./workExperience";
-
+import ToolsDevelopment from "./toolsDevelopment";
+import techTools from "../tools_icon.json";
 
 function App() {
-  // const toolsItems = techTools.map((item, index) => (
-  //   <ToolsDevelopment key={index} product={item} />
-  // ));
+  const toolsItems = techTools.map((item, index) => (
+    <ToolsDevelopment key={index} product={item} />
+  ));
 
   const exp = dataExperience.map((items, index) => {
     return (
@@ -17,7 +18,7 @@ function App() {
       <section>
         <div className="container">
           <div className="row justify-content-left">
-            {/* <div className="col-10" data-aos="fade-down">
+            <div className="col-10" data-aos="fade-down">
               <div
                 className="project label-content aos-init aos-animate"
                 data-aos="fade-down"
@@ -25,7 +26,7 @@ function App() {
                 <h2>My Development Tools </h2>
               </div>
               <div className="row">{toolsItems}</div>
-            </div> */}
+            </div>
           </div>
           <div className="row workingspace">
             <div className="col-sm-5 img-fluid" data-aos="fade-down">
