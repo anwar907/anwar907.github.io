@@ -4,15 +4,26 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 module.exports = {
   entry: './src/index.tsx',
   output: {
-    filename: 'bundle.[contenthash].js',
+    filename: '[name].[contenthash].js',
+    chunkFilename: '[name].[contenthash].chunk.js',
     path: path.resolve(__dirname, 'dist'),
     publicPath: '/',
     clean: false
   },
+  optimization: {
+    splitChunks: {
+      chunks: 'all',
+      cacheGroups: {
+        vendor: {
+          test: /[\\/]node_modules[\\/]/,
+          name: 'vendors',
+          chunks: 'all'
+        }
+      }
+    }
+  },
   performance: {
-    maxAssetSize: 1000000,
-    maxEntrypointSize: 1000000,
-    hints: 'warning'
+    hints: false
   },
   resolve: {
     extensions: ['.tsx', '.ts', '.js', '.jsx']

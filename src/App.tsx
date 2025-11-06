@@ -1,11 +1,10 @@
 import React, { useEffect } from 'react';
-import Navbar from './components/Navbar';
-import Hero from './components/Hero';
 import About from './components/About';
 import Experience from './components/Experience';
-import Contact from './components/Contact';
 import Footer from './components/Footer';
+import Hero from './components/Hero';
 import Modals from './components/Modals';
+import Navbar from './components/Navbar';
 
 declare global {
   interface Window {
@@ -30,7 +29,7 @@ const App: React.FC = () => {
           nav.style.boxShadow = '5px 10px 6px -11px rgba(173,173,173,0.54)';
           nav.style.zIndex = '1';
           nav.style.opacity = '0.9';
-          
+
           if (window.$) {
             window.$('.nav-link').addClass('nav-link-scroll');
             window.$('.navbar-brand').addClass('navbar-brand-scroll');
@@ -39,7 +38,7 @@ const App: React.FC = () => {
         } else {
           nav.style.background = 'transparent';
           nav.style.boxShadow = 'none';
-          
+
           if (window.$) {
             window.$('.nav-link').removeClass('nav-link-scroll');
             window.$('.navbar-brand').removeClass('navbar-brand-scroll');
@@ -59,7 +58,7 @@ const App: React.FC = () => {
       <Hero />
       <About />
       <Experience />
-      <Contact />
+      {/* <Contact /> */}
       <Footer />
       <Modals />
     </div>

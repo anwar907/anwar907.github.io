@@ -47,11 +47,7 @@ const Footer: React.FC = () => {
             </div>
             <div className="col-md-4 p-2">
               <div className="adrees text-center">
-                <span>
-                  <a href="https://github.com/anwar907">
-                    <i className="fas fa-map-marker-alt"></i> Loang Balok kecamatan sekarbela kota mataram
-                  </a>
-                </span>
+                <i className="fas fa-map-marker-alt"></i> Jakarta, ID
               </div>
             </div>
           </div>
