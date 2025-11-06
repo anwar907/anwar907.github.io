@@ -6,7 +6,7 @@ const Experience: React.FC = () => {
   return (
     <section>
       <div className="container">
-        <div className="project mt-5" id="experient">
+        <div className="project mt-5" id="experience">
           <div className="" data-aos="fade-down">
             <h2>Experience</h2>
             <small>Base on Mobile Apps</small>

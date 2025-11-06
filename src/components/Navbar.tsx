@@ -22,8 +22,8 @@ const Navbar: React.FC = () => {
               Home <span className="sr-only">(current)</span>
             </a>
             <a className="nav-item nav-link page-scroll" href="#about">about me</a>
-            <a className="nav-item nav-link page-scroll" href="#experient">experience</a>
-            <a className="nav-item btn btn-sm tombol page-scroll" href="#">join us</a>
+            <a className="nav-item nav-link page-scroll" href="#experience">experience</a>
+            <a className="nav-item btn btn-sm tombol page-scroll" href="#">Get in touch</a>
           </div>
         </div>
       </div>
