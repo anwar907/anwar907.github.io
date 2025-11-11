@@ -2,13 +2,15 @@ import { ExperienceData } from '../types';
 
 // Import images
 import antmHome from '../assets/img/antm/home-bg.png';
-import bookLogin from '../assets/img/bookingninjas/login.png';
+import bookLogin from '../assets/img/bookingninjas/task1.png';
 import foodHome from '../assets/img/food/home.svg';
 import foxHome from '../assets/img/foxlogger/foxhome-bg.png';
 import gkHome from '../assets/img/gokampus/home-bg.png';
 import lingoDashboard from '../assets/img/lingo/dashboard.svg';
 import lompaqHome from '../assets/img/lompaq/category.png';
 import sikaProfile from '../assets/img/sika/profile.png';
+import timegap from '../assets/img/timegap/tg-dashboard.svg';
+
 
 
 
@@ -36,6 +38,14 @@ export const experienceData: ExperienceData[] = [
     tools: "Flutter, Dart, REST API, Xendit, Cypress, Jira, Sentry, MixPanel, GetX.",
     description: "GoKampus adalah pintu gerbang Anda menuju pembelajaran berkelanjutan dan peningkatan karier. Dengan bermitra dengan institusi terkemuka, baik di Indonesia maupun global, yakni Amazon Web Services (AWS), Merry Riana, Alterra Academy, Tokopedia Academy, dan lainnya.",
     image: gkHome,
+  },
+  {
+    id: "timegap",
+    title: "TimeGap",
+    url: "https://play.google.com/store/apps/details?id=biz.timegap.app",
+    tools: "Flutter, Dart, Graphql, Aws, Google Maps, Git Kraken, CI/CD, Xendit, Qiscus, Stripe, Bloc.",
+    description: "TimeGap is an instant booking platform that connects busy busy individuals and professionals to a plethora of activities. It works just like Uber or Grab. The user requests a service via the app and receive confirmation instantly. \n\n The app provides a reliable, immediate and safe-listing with professional providers around the world, there is no border. Here are some of the categories we provide to group activities so you can easily find them.",
+    image: timegap,
   },
   {
     id: "todostaff",

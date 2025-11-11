@@ -12,6 +12,14 @@ import gkClass from '../assets/img/gokampus/class-bg.png';
 import gkHome from '../assets/img/gokampus/home-bg.png';
 import gkLms from '../assets/img/gokampus/lms-bg.png';
 
+import tgBooking from '../assets/img/timegap/tg-booking.svg';
+import tgChat from '../assets/img/timegap/tg-chat.svg';
+import tgDashboard from '../assets/img/timegap/tg-dashboard.svg';
+import tgLogin from '../assets/img/timegap/tg-login.svg';
+import tgProfile from '../assets/img/timegap/tg-profile.svg';
+import tgSplash from '../assets/img/timegap/tg-splash.svg';
+
+
 import bookHistory from '../assets/img/bookingninjas/history.png';
 import bookLogin from '../assets/img/bookingninjas/login.png';
 import bookProfile from '../assets/img/bookingninjas/profile.png';
@@ -51,7 +59,7 @@ const Modals: React.FC = () => {
     <>
 
     {/* Lompaq Modal */}
-    <div className="modal fade lompaq" tabIndex={-1} role="dialog">
+    <dialog className="modal fade lompaq" tabIndex={-1}>
       <div className="modal-dialog modal-xl">
         <div className="modal-content">
           <div id="lompaq" className="carousel slide carousel-fade" data-ride="carousel">
@@ -84,10 +92,10 @@ const Modals: React.FC = () => {
           </div>
         </div>
       </div>
-    </div>
+    </dialog>
 
       {/* Antm Modal */}
-      <div className="modal fade antm" tabIndex={-1} role="dialog">
+      <dialog className="modal fade antm" tabIndex={-1}>
         <div className="modal-dialog modal-xl">
           <div className="modal-content">
             <div id="antm" className="carousel slide carousel-fade" data-ride="carousel">
@@ -126,10 +134,10 @@ const Modals: React.FC = () => {
             </div>
           </div>
         </div>
-      </div>
+      </dialog>
 
       {/* GoKampus Modal */}
-      <div className="modal fade gokampus" tabIndex={-1} role="dialog">
+      <dialog className="modal fade gokampus" tabIndex={-1}>
         <div className="modal-dialog modal-xl">
           <div className="modal-content">
             <div id="gokampus" className="carousel slide carousel-fade" data-ride="carousel">
@@ -153,10 +161,46 @@ const Modals: React.FC = () => {
             </div>
           </div>
         </div>
-      </div>
+      </dialog>
+
+      {/* TimeGap Modal */}
+      <dialog className="modal fade timegap" tabIndex={-1}>
+        <div className="modal-dialog modal-xl">
+          <div className="modal-content">
+            <div id="timegap" className="carousel slide carousel-fade" data-ride="carousel">
+              <div className="carousel-inner">
+                <div className="carousel-item active">
+                  <img src={tgSplash} className="d-block img-fluid mx-auto" style={{maxHeight: '70vh', objectFit: 'contain'}} alt="splash" />
+                </div>
+                <div className="carousel-item">
+                  <img src={tgLogin} className="d-block img-fluid mx-auto" style={{maxHeight: '70vh', objectFit: 'contain'}} alt="login" />
+                </div>
+                <div className="carousel-item">
+                  <img src={tgDashboard} className="d-block img-fluid mx-auto" style={{maxHeight: '70vh', objectFit: 'contain'}} alt="dashboard" />
+                </div>
+                <div className="carousel-item">
+                  <img src={tgBooking} className="d-block img-fluid mx-auto" style={{maxHeight: '70vh', objectFit: 'contain'}} alt="booking" />
+                </div>
+                <div className="carousel-item">
+                  <img src={tgChat} className="d-block img-fluid mx-auto" style={{maxHeight: '70vh', objectFit: 'contain'}} alt="chat" />
+                </div>
+                <div className="carousel-item">
+                  <img src={tgProfile} className="d-block img-fluid mx-auto" style={{maxHeight: '70vh', objectFit: 'contain'}} alt="profile" />
+                </div>
+              </div>
+              <button className="custom-nav-btn prev" data-target="#timegap" data-slide="prev">
+                ‹
+              </button>
+              <button className="custom-nav-btn next" data-target="#timegap" data-slide="next">
+                ›
+              </button>
+            </div>
+          </div>
+        </div>
+      </dialog>
 
       {/* TodoStaff Modal */}
-      <div className="modal fade todostaff" tabIndex={-1} role="dialog">
+      <dialog className="modal fade todostaff" tabIndex={-1}>
         <div className="modal-dialog modal-xl">
           <div className="modal-content">
             <div id="todostaff" className="carousel slide carousel-fade" data-ride="carousel">
@@ -186,10 +230,10 @@ const Modals: React.FC = () => {
             </div>
           </div>
         </div>
-      </div>
+      </dialog>
 
       {/* Foxlogger Modal */}
-      <div className="modal fade foxlogger" tabIndex={-1} role="dialog">
+      <dialog className="modal fade foxlogger" tabIndex={-1}>
         <div className="modal-dialog modal-xl">
           <div className="modal-content">
             <div id="foxlogger" className="carousel slide carousel-fade" data-ride="carousel">
@@ -216,10 +260,10 @@ const Modals: React.FC = () => {
             </div>
           </div>
         </div>
-      </div>
+      </dialog>
 
       {/* Lingo Modal */}
-      <div className="modal fade lingo" tabIndex={-1} role="dialog">
+      <dialog className="modal fade lingo" tabIndex={-1}>
         <div className="modal-dialog modal-xl">
           <div className="modal-content">
             <div id="lingo" className="carousel slide carousel-fade" data-ride="carousel">
@@ -243,10 +287,10 @@ const Modals: React.FC = () => {
             </div>
           </div>
         </div>
-      </div>
+      </dialog>
 
       {/* Food Modal */}
-      <div className="modal fade food" tabIndex={-1} role="dialog">
+      <dialog className="modal fade food" tabIndex={-1}>
         <div className="modal-dialog modal-xl">
           <div className="modal-content">
             <div id="food" className="carousel slide carousel-fade" data-ride="carousel">
@@ -273,10 +317,10 @@ const Modals: React.FC = () => {
             </div>
           </div>
         </div>
-      </div>
+      </dialog>
 
       {/* Sika Modal */}
-      <div className="modal fade sika" tabIndex={-1} role="dialog">
+      <dialog className="modal fade sika" tabIndex={-1}>
         <div className="modal-dialog modal-xl">
           <div className="modal-content">
             <div id="sika" className="carousel slide carousel-fade" data-ride="carousel">
@@ -306,7 +350,7 @@ const Modals: React.FC = () => {
             </div>
           </div>
         </div>
-      </div>
+      </dialog>
     </>
   );
 };
